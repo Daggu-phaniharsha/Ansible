@@ -21,4 +21,5 @@
       copy: src=index.html dest=/tmp
       tags: e
 
-      
+
+# this playbook of yml code will only work if we run "ansible playbook filename" 

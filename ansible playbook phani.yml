@@ -1,0 +1,24 @@
+- hosts: all   
+  ignore_errors: true
+  tasks:
+    - name: installing git 
+      yum: name=git state=present
+      tags: a
+
+    - name: installing httpd
+      yum: name=httpd state=present
+      tags: b
+
+    - name: starting httpd
+      service: name=httpd state=started
+      tags: c
+
+    - name: creating a user
+      user: name=madhu state=present
+      tags: d
+
+    - name: copy a file
+      copy: src=index.html dest=/tmp
+      tags: e
+
+      

@@ -22,4 +22,4 @@
     - name: installing {{b}}
       yum: name={{b}} state=present
 
-# when executing, --> ansible-playbook madhu.yml --extravars "a=git b=docker"  (So git and docker will install as per a and b in the vars)
+# when executing ansible-playbook madhu.yml --extravars "a=git b=docker"  (So git and docker will install as per a and b in the vars)

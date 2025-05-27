@@ -4,7 +4,7 @@
     - name: installing git 
       yum: name=git state=present
       tags: a
-
+ 
     - name: installing httpd 
       yum: name=httpd state=present
       tags: b

@@ -1,7 +1,7 @@
 # variables are two types:
 ### 1. Static --> Vars can defined inside of playbook and use for multiple times.   
 - hosts: all 
-  vars:
+  vars: 
     a: git 
     b: httpd
   tasks:

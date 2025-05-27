@@ -2,7 +2,7 @@
   ignore_errors: true
   tasks:
     - name: installing git 
-      yum: name=git state=present 
+      yum: name=git state=present  
       tags: a
  
     - name: installing httpd 

@@ -2,7 +2,7 @@
 ### 1. Static --> Vars can defined inside of playbook and use for multiple times.   
 - hosts: all 
   vars:
-    a: git
+    a: git 
     b: httpd
   tasks:
     - name: installing {{a}} 

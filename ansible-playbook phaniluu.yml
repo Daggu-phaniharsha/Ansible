@@ -17,7 +17,7 @@
       user: name=madhu state=present
       tags: d
 
-    - name: copy a file
+    - name: copy a file 
       copy: src=index.html dest=/tmp
       tags: e
 

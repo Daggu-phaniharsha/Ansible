@@ -4,7 +4,7 @@
       yum: name=git state=present 
       notify: starting httpd 
   handlers: 
-    - name: starting httpd 
+    - name: starting httpd  
       service: name=httpd state=started
   
 #one task is depending up on the other task = handlers in ansible 
